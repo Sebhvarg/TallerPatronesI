@@ -4,6 +4,12 @@
 
 package com.espol.ds.grupo6.patronesddg6;
 
+import com.espol.ds.grupo6.patronesddg6.patronfactorymethod.BasicCard;
+import com.espol.ds.grupo6.patronesddg6.patronfactorymethod.CreditCard;
+import com.espol.ds.grupo6.patronesddg6.patronfactorymethod.FactoryVIPCard;
+import com.espol.ds.grupo6.patronesddg6.patronfactorymethod.PremiumCard;
+import com.espol.ds.grupo6.patronesddg6.patronfactorymethod.VipCard;
+
 /**
  *
  * @author sebas
@@ -11,6 +17,10 @@ package com.espol.ds.grupo6.patronesddg6;
 public class PatronesDDG6 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // Tarjetas
+        CreditCard clienteBasico = new BasicCard();
+        CreditCard ClientePremium = new PremiumCard();
+        CreditCard ClienteVIP = new VipCard();
+        
     }
 }
